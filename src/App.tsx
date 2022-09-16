@@ -1,27 +1,10 @@
-
-interface ButtonProps {
-  title: string;
-}
-
-function Button(props: ButtonProps) {
-  return (
-    <button>
-      {props.title}
-    </button>
-  )
-}
+import './styles/main.css'
 
 function App() {
-  const titles = ["first","second","third"]
-  
   return (
-    <>
-      {titles.map(title => {
-        return (
-          <Button title={title} />
-        )
-      })}
-    </>
+    <div className="w-">
+      
+    </div>
   )
 }
 
